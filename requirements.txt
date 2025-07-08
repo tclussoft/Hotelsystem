@@ -1,0 +1,40 @@
+# Django Framework
+Django==4.2.16
+djangorestframework==3.14.0
+
+# Database
+psycopg2-binary==2.9.9
+
+# Celery for background tasks
+celery==5.3.4
+redis==5.0.1
+
+# SMS Provider
+twilio==8.10.3
+
+# Environment variables
+python-decouple==3.8
+
+# Date and time utilities
+python-dateutil==2.8.2
+
+# Image handling
+Pillow==10.1.0
+
+# API documentation
+drf-yasg==1.21.7
+
+# CORS headers
+django-cors-headers==4.3.1
+
+# Admin interface enhancements
+django-admin-interface==0.28.6
+
+# Authentication
+djangorestframework-simplejwt==5.3.0
+
+# File upload handling
+django-cleanup==8.0.0
+
+# Utilities
+requests==2.31.0
