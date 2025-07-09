@@ -32,29 +32,20 @@ ALLOWED_HOSTS = ['*']
 
 # Application definition
 
-DJANGO_APPS = [
+INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-]
-
-THIRD_PARTY_APPS = [
-    # 'rest_framework',
-    # 'corsheaders',
-]
-
-LOCAL_APPS = [
+    # Local apps
     'hotel',
     'employees',
     'restaurant',
     'minibar',
     'sms_service',
 ]
-
-INSTALLED_APPS = DJANGO_APPS + LOCAL_APPS
 
 MIDDLEWARE = [
     # 'corsheaders.middleware.CorsMiddleware',
